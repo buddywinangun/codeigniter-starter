@@ -1,4 +1,4 @@
-## About Codeigniter Xtend
+## About Codeigniter Xtend Appstarter
 
 Codeigniter Xtend adalah alat yang kami rancang sebagai manajemen extension di atas Framework Codeigniter. Ini memungkinkan Anda untuk mengelola (menginstal/memperbarui) extension, seperti: Package, Tema dan Bahasa.
 
