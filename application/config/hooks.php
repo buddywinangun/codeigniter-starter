@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -11,8 +11,3 @@ defined('BASEPATH') or exit('No direct script access allowed');
 |	https://codeigniter.com/userguide3/general/hooks.html
 |
 */
-
-$hook['pre_system'][] = [new Xtend\Autoloader\Autoloader, 'register'];
-
-$hook['pre_controller_constructor'][] = [new Xtend\Package\Package, 'init'];
-$hook['pre_controller_constructor'][] = [new Xtend\View\Template, 'init'];
